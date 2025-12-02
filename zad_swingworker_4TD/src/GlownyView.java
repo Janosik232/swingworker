@@ -9,7 +9,7 @@ public class GlownyView extends JFrame {
     public JLabel statusLabel = new JLabel(" ");
 
     public GlownyView() {
-        super("System Logowania (MVC + SwingWorker)");
+        super("System Logowania");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(350, 200);
         setLayout(new FlowLayout());
@@ -27,3 +27,4 @@ public class GlownyView extends JFrame {
         setVisible(true);
     }
 }
+
